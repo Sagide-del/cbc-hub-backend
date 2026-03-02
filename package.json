@@ -31,12 +31,12 @@
                             "@types/react-dom":  "^18",
                             "typescript":  "^5"
                         },
-    "engines":  {
-                    "node":  "\u003e=20.0.0 \u003c=24.x.x",
-                    "npm":  "\u003e=6.0.0"
-                },
     "strapi":  {
                    "uuid":  "01cf1f47-8989-456b-b919-e262e06c5524",
                    "installId":  "42b6d11cd2f8833b80e54aff35897f10859d1931959effeea5bf5fbfa6084325"
-               }
+               },
+    "engines":  {
+                    "node":  "20.x",
+                    "npm":  "\u003e=6.0.0"
+                }
 }
