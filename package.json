@@ -4,7 +4,7 @@
     "private":  true,
     "description":  "A Strapi application",
     "scripts":  {
-                    "build":  "node vercel-build.js",
+                    "build":  "strapi build",
                     "console":  "strapi console",
                     "deploy":  "strapi deploy",
                     "dev":  "strapi develop",

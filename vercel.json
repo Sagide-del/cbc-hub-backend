@@ -1,7 +1,7 @@
 {
   "buildCommand": "npm run build",
   "outputDirectory": "dist",
-  "devCommand": "npm run develop",
   "installCommand": "npm install",
-  "framework": null
+  "framework": null,
+  "nodeVersion": "20.x"
 }
