@@ -3,10 +3,5 @@
   "outputDirectory": "dist",
   "devCommand": "npm run develop",
   "installCommand": "npm install",
-  "framework": null,
-  "functions": {
-    "api/**/*.js": {
-      "maxDuration": 10
-    }
-  }
+  "framework": null
 }
