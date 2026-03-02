@@ -1,0 +1,45 @@
+{
+  "kind": "collectionType",
+  "collectionName": "diy_projects",
+  "info": {
+    "singularName": "diy-project",
+    "pluralName": "diy-projects",
+    "displayName": "DIY PROJECT "
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "blocks"
+    },
+    "steps": {
+      "type": "blocks"
+    },
+    "difficulty": {
+      "type": "enumeration",
+      "enum": [
+        "Easy",
+        "Medium",
+        "Hard"
+      ]
+    },
+    "estimatedTime": {
+      "type": "string"
+    },
+    "thumbnail": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}
